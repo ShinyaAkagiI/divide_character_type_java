@@ -44,7 +44,7 @@ class Divide {
     
     String tmp_char_class = null;  // 一つ前の文字種
     String conj = null;            // 接続記号
-    List<String> conjlist = Arrays.asList(".", ",", "&", "．", "＆");       // 接続記号の一覧
+    List<String> conjlist = Arrays.asList(".", "&", "．", "＆");       // 接続記号の一覧
     List<String> end_period = Arrays.asList("e.g", "u.s", "U.S", "u.s.a");  // 後置ピリオドが付く用語
 
     boolean firststep = true;
